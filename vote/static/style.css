@@ -1,0 +1,21 @@
+html {
+ width: 100vw;
+ scroll-behavior: smooth;
+}
+
+body {
+    color: #000;
+    font: 10px 'Calibri',sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+#msg {
+    display: none !important;
+}
+
+.main-title {
+    font-family: 'Lato', sans-serif;
+}
