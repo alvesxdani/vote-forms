@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-ng@cpvli0*q^-buc(a#_-r+^k+(99t+42f#lz!wd4_gpipqy7%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://vote-forms.herokuapp.com/']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
