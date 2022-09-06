@@ -26,6 +26,6 @@ route.register(r'vote',voteviewsets.VoteViewsets, basename="vote")
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.renderIndex),
+    path('api', include(route.urls)),
     path('enviado', views.render_votacao_enviada),
-    path('api',include(route.urls))
 ]

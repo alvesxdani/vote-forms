@@ -11,8 +11,8 @@ class Vote(models.Model):
     )
 
     FLOWERSCHOICES = (
-        ('tulipa','Tulipa'),
-        ('rosa','Rosa')
+        ('Tulipa','Tulipa'),
+        ('Tosa','Rosa')
     )
     currentDate = models.DateTimeField(default=datetime.now())
     nome = models.CharField(max_length=200, default="SEM NOME")
