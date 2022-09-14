@@ -12,9 +12,10 @@ class Vote(models.Model):
 
     FLOWERSCHOICES = (
         ('Tulipa','Tulipa'),
-        ('Tosa','Rosa')
+        ('Rosa','Rosa'),
+        ('Flores do Campo','Flores do Campo'),
     )
     currentDate = models.DateTimeField(default=datetime.now())
     nome = models.CharField(max_length=200, default="SEM NOME")
     turma = models.CharField(max_length=4, choices=TURMA)
-    flor = models.CharField(max_length=10, choices=FLOWERSCHOICES)
+    flor = models.CharField(max_length=30, choices=FLOWERSCHOICES)
